@@ -2,7 +2,7 @@ class School{
   constructor(name, level, numberOfStudents){
       this._name=name;
       this._level=level;
-      this._numberOfStudents;
+      this._numberOfStudents=numberOfStudents;
   }
   get name(){
     return this._name;
